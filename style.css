@@ -1,0 +1,49 @@
+*
+{
+margin: 0;
+box-sizing: border-box;
+}
+
+body
+{
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    height: 100vh;
+}
+
+#galeria
+{
+    display: flex;
+}
+
+
+
+#calango
+{
+    background-image: url(calango.jpg.webp);
+
+    flex-grow: 7;
+
+    background-color: transparent;
+}
+
+#mulher
+{
+    background-image: url(mulher.jpg.webp);
+}
+
+#cachorro
+{
+    background-image: url(cachorro.jpg.webp);
+}
+
+#oceano
+{
+    background-image: url(oceano.jpg.webp);
+}
+
+#carro
+{
+    background-image: url(carro.jpg.webp);
+}
+
